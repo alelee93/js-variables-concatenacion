@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-11-10T01:27:07.463Z",
+    "end": "2021-11-10T01:27:08.257Z",
+    "duration": 794
+  },
+  "tests": [
+    {
+      "title": "saludo utiliza el valor de la variable nombre",
+      "fullTitle": "index.js saludo utiliza el valor de la variable nombre",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: saludo is not defined\n    at Context.<anonymous> (test/indexTest.js:3:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "saludo is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "saludo utiliza el valor de la variable nombre",
+      "fullTitle": "index.js saludo utiliza el valor de la variable nombre",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: saludo is not defined\n    at Context.<anonymous> (test/indexTest.js:3:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "saludo is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
